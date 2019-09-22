@@ -25,14 +25,14 @@
     {% include 'partials/_topbar.html' %}
     <!-- Nav bar -->
     {% include 'partials/_navbar.html' %}
-    <!-- Footer -->
-    {% include 'partials/_footer.html' %}
-    
 
+    <!-- Main content -->
     {% block content %}
 
-
     {% endblock %}
+
+    <!-- Footer -->
+    {% include 'partials/_footer.html' %}
 
     <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
